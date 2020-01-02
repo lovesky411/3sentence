@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "react-dom": "^16.12.0",
+    "react": "^16.12.0",
+    "style-loader": "^1.1.2",
+    "webpack-cli": "^3.3.10",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env": "set JAVA_HOME=C:\\Program Files\\Java\\jdk-11.0.1",
+    "start" : "mvnw spring-boot:run",
+    "watch": "node_modules\\.bin\\webpack --watch -d"
+  },
+  "author": "",
+  "license": "ISC"
+}
